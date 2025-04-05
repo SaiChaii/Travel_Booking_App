@@ -1,0 +1,28 @@
+[
+  {
+    "user_id": "12345",
+    "name": "chaitanya",
+    "hashed_password": "abc123456",
+    "tickets_booked": [
+      {
+        "source": "Hyderabad",
+        "destination": "Bombay",
+        "date_of_travel": "2023-12-09T01:08:09Z",
+        "train": {
+          "train_id": "123tr",
+          "train_no": 1245,
+          "seats": [
+            [0,0,0],
+            [0,0,0],
+            [1,0,0]
+          ]
+        },
+        "stations": {
+            "Hyderabad": "02:10:09",
+            "Karimnagar": "03:50:44",
+            "Pune": "08:33:12"
+        }
+        }
+    ]
+  }
+]
